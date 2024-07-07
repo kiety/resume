@@ -1,16 +1,23 @@
 header {
     position: fixed;
-    width: 100%;
+    width: 102%;
     top: 0;
+    left: -8px;
     background-color: white;
+    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.00);
+    transition: 0.2s;
 }
 
 #name {
     transition: 0.2s;
 }
 
+#top {
+    height: 160px;
+}
+
 #meat {
-    padding-top: 180px;
+    /* margin-top: 0px; */
 }
 
 h1 {
@@ -36,7 +43,7 @@ h3 {
     font-weight: 300;
     margin-top: 0px;
     margin-bottom: 0px;
-    font-size: 1.2rem;
+    font-size: 1.4rem;
 }
 
 h4 {
@@ -58,11 +65,13 @@ h5 {
     font-family: Poppins, sans-serif;
     font-style: normal;
     font-weight: 300;
-    margin-top: 0px;
-    margin-bottom: 10px;
+    margin-top: -10px;
+    margin-bottom: -10px;
     font-size: 1.2rem;
     margin-left: 10px;
     margin-right: 10px;
+    padding-bottom: -10px;
+    padding-top: -10px;
 }
 
 .position {
@@ -86,6 +95,7 @@ main {
     justify-content: center;
     gap: 20px;
     flex-wrap: wrap;
+    align-content: start;
 }
 
 #column-1 {
@@ -124,6 +134,10 @@ main {
     margin-top: 50px;
 }
 
+.head-space {
+    height: 15px;
+}
+
 .no-bullet {
     list-style-type: none;
     font-style: italic;
@@ -137,3 +151,40 @@ main {
 .list-head {
     margin-bottom: 4px;
 }
+
+
+/* Responsiveness for mobile devices */
+@media only screen and (max-width: 600px) {
+    #column-2 {
+        min-width: 360px;
+    }
+
+    #top {
+        height: 190px;
+    }
+
+    h2 {
+        font-size: 1.6rem;
+    }
+
+    h3 {
+        font-size: 1.0rem;
+    }
+
+    h4 {
+        font-size: 0.8rem;
+    }
+
+    ul {
+        font-size: 0.8rem;
+    }
+
+    .duration {
+        font-size: 0.7rem;
+    }
+
+    .location {
+        font-size: 0.7rem;
+    }
+
+  }

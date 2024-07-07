@@ -162,6 +162,40 @@ main {
     margin-bottom: 4px;
 }
 
+footer {
+    height: 50px;
+    align-content: center;
+    text-align: center;
+}
+
+#email {
+    text-align: center;
+    font-family: Poppins, sans-serif;
+    font-style: normal;
+    font-weight: 300;
+    justify-content: center;
+}
+
+
+.fa {
+    padding: 20px;
+    font-size: 30px;
+    width: 30px;
+    height: 30px;
+    text-align: center;
+    align-content: center;
+    text-decoration: none;
+    border-radius: 50%;
+  }
+
+  /* LinkedIn */
+.fa-linkedin {
+    background: #0a66c2;
+    color: white;
+    /* position: absolute; */
+    /* top: 20px; */
+    /* left: 200px; */
+  }
 
 /* Responsiveness for smart phones */
 @media only screen and (max-width: 500px) {

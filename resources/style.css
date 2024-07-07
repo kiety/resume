@@ -101,7 +101,7 @@ main {
 #column-2 {
     max-width: 60%;
     /* margin-left: 5%; */
-    min-width: 500px;
+    min-width: 400px;
     padding: 20px;
 }
 

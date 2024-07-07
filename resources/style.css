@@ -174,25 +174,6 @@ footer {
 }
 
 
-.fa {
-    padding: 20px;
-    font-size: 30px;
-    width: 30px;
-    height: 30px;
-    text-align: center;
-    align-content: center;
-    text-decoration: none;
-    border-radius: 50%;
-  }
-
-  /* LinkedIn */
-.fa-linkedin {
-    background: #0a66c2;
-    color: white;
-    /* position: absolute; */
-    /* top: 20px; */
-    /* left: 200px; */
-  }
 
 /* Responsiveness for smart phones */
 @media only screen and (max-width: 500px) {

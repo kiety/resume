@@ -22,19 +22,18 @@ function scrollFunction() {
   if (document.body.scrollTop > 90 || document.documentElement.scrollTop > 90) {
     document.getElementById("nav").style.backdropFilter = "blur(6px)";
     document.getElementById("nav").style.backgroundColor = "rgba(54, 57, 59 ,0.5)";
-    document.getElementById("personal").style.color = "#E9E9E9";
+    document.getElementById("profession").style.color = "#E9E9E9";
     document.getElementById("resume").style.color = "#E9E9E9";
     document.getElementById("contact").style.color = "#E9E9E9";
-    document.getElementById("profession").style.color = "#E9E9E9";
-    document.getElementById("profession").style.backgroundColor = "rgba(61,63,64,0.5)";
+    document.getElementById("personal").style.color = "#E9E9E9";
+    document.getElementById("personal").style.backgroundColor = "rgba(61,63,64,0.5)";
   } else {
     document.getElementById("nav").style.backdropFilter = "none";
     document.getElementById("nav").style.backgroundColor = "rgba(54, 57, 59 ,0.0)";
-    document.getElementById("personal").style.color = "#282B30";
+    document.getElementById("profession").style.color = "#282B30";
     document.getElementById("resume").style.color = "#282B30";
     document.getElementById("contact").style.color = "#282B30";
-    document.getElementById("profession").style.color = "#282B30";
-    document.getElementById("profession").style.backgroundColor = "rgba(209,209,209,0.5)";
+    document.getElementById("personal").style.color = "#282B30";
+    document.getElementById("personal").style.backgroundColor = "rgba(209,209,209,0.5)";
   }
 }
-

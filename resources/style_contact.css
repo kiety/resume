@@ -7,9 +7,6 @@ body {
     font-family: Poppins, sans-serif;
     /* background-image: linear-gradient(to bottom right, #FFFFFF, #E9E9E9, #FFFFFF); */
     /* background-repeat: no-repeat; */
-    justify-content: center;
-    display: flex;
-    flex-direction: column;
 }
 
 header {
@@ -79,7 +76,7 @@ header {
     transition: 0.5s;
 }
 
-#profession {
+#contact {
     background-color: rgba(209,209,209,0.5);
     border-radius: 17px;
     width: 110px;
@@ -90,7 +87,7 @@ header {
     transition: 0.3s;
 }
 
-#personal, #resume, #contact {
+#profession, #personal, #resume {
     transition: 0.3s;
 }
 
@@ -134,7 +131,15 @@ main {
     justify-content: center;
 }
 
+.content {
+    margin-top: 100px;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin-left: auto;
+    margin-right: auto;
 
+}
 
 .event {
     text-align: left;
@@ -157,6 +162,7 @@ main {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
+    margin-top: 60px;
 }
 
 .position-text {
@@ -169,6 +175,7 @@ main {
 .position-text h3 {
     margin-top: 0px;
     margin-bottom: 0px;
+    font-size: 3.0rem;
 }
 
 h1 {
@@ -207,6 +214,9 @@ footer {
     align-content: center;
     text-align: center;
     background-color: ghostwhite;
+    position: absolute;
+    width: 100%;
+    bottom: 0;
 
 }
 
@@ -235,41 +245,98 @@ footer {
     text-decoration: none;
 }
 
-
-
 ::-webkit-scrollbar { 
     display: none; 
     }
 
 /* Responsiveness for smart phones */
-@media only screen and (max-width: 500px) {
+/* @media only screen and (max-width: 500px) {
+    .columns {
+        flex-wrap: wrap;
+    }
 
+    #column-1 {
+        min-width: 92%;
+        max-width: 96%
+
+    }
     
-    #nav {
+    #column-2 {
+        min-width: 96%;
+    }
+
+    #top {
+        height: 190px;
+    }
+
+    h2 {
+        font-size: 1.6rem;
+    }
+
+    h3 {
         font-size: 1.0rem;
-        justify-content: center;
-        margin-bottom: 0px;
-        width: 320px;
     }
 
-    .nav-button {
-        width: 50px;
-        padding-left: 0px;
+    h4 {
+        font-size: 0.9rem;
     }
 
+    ul {
+        font-size: 0.9rem;
+    }
 
+    .duration {
+        font-size: 0.8rem;
+    }
 
-  }
+    .location {
+        font-size: 0.8rem;
+    }
 
-
-
+  } */
 
 /* Responsiveness for tablets */
-@media only screen and (min-width: 501px) and (max-width: 1200px) {
+/* @media only screen and (min-width: 501px) and (max-width: 1200px) {
     .columns {
         flex-wrap: nowrap;
     }
 
+    #column-1 {
+        min-width: 230px;
+        max-width: 300px;
+    }
+    
+    #column-2 {
+        min-width: 200px;
+        max-width: 600px;
+    }
 
+    #top {
+        height: 190px;
+    }
 
-  }
+    h2 {
+        font-size: 1.6rem;
+    }
+
+    h3 {
+        font-size: 1.2rem;
+    }
+
+    h4 {
+        font-size: 1.0rem;
+    }
+
+    ul {
+        font-size: 1.0rem;
+    }
+
+    .duration {
+        font-size: 1.0rem;
+    }
+
+    .location {
+        font-size: 1.0rem;
+    }
+
+  } */

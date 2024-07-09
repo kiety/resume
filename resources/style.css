@@ -276,12 +276,24 @@ h5 {
     text-align: right;
 }
 
+.company, .location {
+    margin-bottom: 0px;
+}
+
+
+.position, .duration {
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
 
 .icon {
     margin-top: 70px;
 }
 
-
+.space {
+    height: 50px;
+}
 
 
 

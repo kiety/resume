@@ -135,6 +135,53 @@ main {
     justify-content: center;
 }
 
+.columns {
+    display: flex;
+    text-align: left;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+    align-content: start;
+}
+
+
+#column-1 {
+    min-width: 300px;
+    max-width: 500px;
+    background-color: dimgray;
+    padding: 20px;
+    color: white;
+    border-radius: 15px;
+    flex-grow: 1;
+    flex-shrink: 1;
+}
+
+.first-li {
+    margin-top: -15px;
+}
+
+
+#column-2 {
+    max-width: 60%;
+    /* margin-left: 5%; */
+    min-width: 400px;
+    max-width: 1000px;
+    padding: 20px;
+    flex-grow: 3;
+    flex-shrink: 3;
+}
+
+#second-name {
+    display: none;
+}
+
+
+.info {
+    display: flex;
+    justify-content: space-between;
+    /* margin-top: 0px; */
+    /* padding-top: 0px; */
+}
 
 
 .event {
@@ -160,6 +207,15 @@ main {
     justify-content: center;
 }
 
+.position {
+    font-weight: 500;
+}
+
+.duration {
+    font-style: italic;
+}
+
+
 .position-text {
     text-align: left;
     width: 60%;
@@ -183,6 +239,11 @@ h2 {
     font-size: 2.0rem;
 }
 
+h3 {
+    font-weight: 300;
+    margin-top: 0px;
+    font-size: 1.4rem;
+}
 
 h5 {
     text-align: center;
@@ -192,6 +253,15 @@ h5 {
     margin-top: 40px
 }
 
+#top {
+    height: 20px;
+}
+
+.skill-list {
+    margin-top: 0px;
+}
+
+
 .position {
     font-weight: 500;
 }
@@ -200,6 +270,20 @@ h5 {
     font-style: italic;
     font-weight: 400;
 }
+
+
+.company, .position {
+    text-align: left;
+}
+
+.location, .duration {
+    text-align: right;
+}
+
+
+
+
+
 
 
 
@@ -243,12 +327,11 @@ footer {
     }
 
 /* Responsiveness for smart phones */
-@media only screen and (max-width: 500px) {
+@media only screen and (max-width: 860px) {
 
     
     #nav {
         font-size: 1.0rem;
-        /* justify-content: center; */
         margin-bottom: 0px;
         width: 94%;
         padding-left: 10px;
@@ -271,14 +354,13 @@ footer {
         margin-right: 5px;
     }
 
-
   }
 
 
 
 
 /* Responsiveness for tablets */
-@media only screen and (min-width: 501px) and (max-width: 1200px) {
+@media only screen and (min-width: 861px) {
     .columns {
         flex-wrap: nowrap;
     }

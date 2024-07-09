@@ -195,6 +195,7 @@ main {
     background-color: #ECEEF2;
     border-radius: 30px;
     width: 200px;
+    height: 160px;
 }
 
 .institution {
@@ -287,9 +288,9 @@ h5 {
 }
 
 
-.icon {
+/* .icon {
     margin-top: 70px;
-}
+} */
 
 .space {
     height: 50px;

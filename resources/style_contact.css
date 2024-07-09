@@ -57,7 +57,7 @@ header {
 
 #nav {
     display: flex;
-    justify-content: space-around;
+    justify-content: space-evenly;
     align-items: center;
     position: sticky;
     top: 30px;
@@ -249,94 +249,35 @@ footer {
     display: none; 
     }
 
+    
 /* Responsiveness for smart phones */
-/* @media only screen and (max-width: 500px) {
-    .columns {
-        flex-wrap: wrap;
-    }
+@media only screen and (max-width: 500px) {
 
-    #column-1 {
-        min-width: 92%;
-        max-width: 96%
-
-    }
     
-    #column-2 {
-        min-width: 96%;
-    }
-
-    #top {
-        height: 190px;
-    }
-
-    h2 {
-        font-size: 1.6rem;
-    }
-
-    h3 {
+    #nav {
         font-size: 1.0rem;
+        /* justify-content: center; */
+        margin-bottom: 0px;
+        width: 100%;
+        padding-left: 10px;
+        padding-right: 10px;
     }
 
-    h4 {
-        font-size: 0.9rem;
+    .nav-button {
+        width: 130%;
+        padding-left: 4px;
+        padding-right: 4px;
     }
 
-    ul {
-        font-size: 0.9rem;
+    .position-text {
+        width: 100%;
+        margin-left: auto;
+        margin-right: auto;
     }
 
-    .duration {
-        font-size: 0.8rem;
+    #profession {
+        margin-right: 5px;
     }
 
-    .location {
-        font-size: 0.8rem;
-    }
 
-  } */
-
-/* Responsiveness for tablets */
-/* @media only screen and (min-width: 501px) and (max-width: 1200px) {
-    .columns {
-        flex-wrap: nowrap;
-    }
-
-    #column-1 {
-        min-width: 230px;
-        max-width: 300px;
-    }
-    
-    #column-2 {
-        min-width: 200px;
-        max-width: 600px;
-    }
-
-    #top {
-        height: 190px;
-    }
-
-    h2 {
-        font-size: 1.6rem;
-    }
-
-    h3 {
-        font-size: 1.2rem;
-    }
-
-    h4 {
-        font-size: 1.0rem;
-    }
-
-    ul {
-        font-size: 1.0rem;
-    }
-
-    .duration {
-        font-size: 1.0rem;
-    }
-
-    .location {
-        font-size: 1.0rem;
-    }
-
-  } */
+  }

@@ -135,6 +135,19 @@ main {
     justify-content: center;
 }
 
+#download {
+    text-align: center;
+    margin-top: 30px;
+}
+
+#download-resume {
+    border: 2px solid #282B30;
+    border-radius: 15px;
+    padding: 10px;
+    text-align: center;
+}
+
+
 .columns {
     display: flex;
     text-align: left;

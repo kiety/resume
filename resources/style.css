@@ -310,6 +310,12 @@ h5 {
 }
 
 
+.no-bullet {
+    list-style-type: none;
+    margin-left: -20px;
+    font-style: italic;
+}
+
 
 footer {
     height: 50px;
